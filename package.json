@@ -1,0 +1,38 @@
+{
+  "name": "lsb-site",
+  "version": "1.0.0",
+  "description": "웹 기술 실험과 배포 연습을 위한 사이트 프로젝트입니다.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoundObjet/lsb-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/FoundObjet/lsb-site/issues"
+  },
+  "homepage": "https://github.com/FoundObjet/lsb-site#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "@types/react": "^19.2.8",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.2",
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.6.3"
+  }
+}
