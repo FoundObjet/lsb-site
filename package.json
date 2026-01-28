@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/FoundObjet/lsb-site#readme",
   "devDependencies": {
+    "@originjs/vite-plugin-federation": "^1.4.1",
     "@tailwindcss/cli": "^4.1.18",
+    "@types/node": "^25.0.10",
     "@types/react": "^19.2.8",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.2",
