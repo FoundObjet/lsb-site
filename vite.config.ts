@@ -16,7 +16,7 @@ export default defineConfig(({ mode }) => {
 					: {
 							catalog_remote: "/prediction/assets/remoteEntry.js",
 						},
-				shared: ["react", "react-dom"],
+				shared: ["react", "react-dom", '@tanstack/react-query'],
 			}),
 		],
 	};
